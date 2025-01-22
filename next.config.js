@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  serverExternalPackages: ["sqlite3"],
   experimental: {
-    serverExternalPackages: ["sqlite3"],
+    
   },
 }
 
